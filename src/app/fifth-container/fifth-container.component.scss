@@ -1,0 +1,89 @@
+.fifth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-me {
+    color: #2dfcd8;
+    margin-bottom: 20px;
+    width: 40vw;
+}
+
+.email-contact {
+    color: lightgrey;
+    width: 40vw;
+}
+.name-email {
+    font-size: 18px;
+    color: white;
+}
+
+input {
+    width: 40vw;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #1a1a1a;
+    border: none;
+}
+
+textarea {
+    height: 200px;
+    width: 40vw;
+    margin-top: 20px;
+    background-color: #1a1a1a;
+    border: none;
+}
+
+label {
+    margin-top: 20px;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: right;
+    bottom: 0;
+}
+
+.submit-button {
+    color: #2dfcd8;
+    background-color: black;
+    border: #2dfcd8 solid;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    left: 0;
+
+    &:hover {
+        background-color: #2dfcd8;
+        color: white;
+    }
+}
+
+.end-of-page {
+    margin-top: 100px;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+
+}
+
+.imp-privacy {
+    cursor: pointer;
+   
+
+   :hover { color: red;
+   
+   }
+}
+
+.in-git-xing {
+    cursor: pointer;
+
+}

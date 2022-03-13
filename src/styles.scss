@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+*{scroll-behavior: smooth;}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+  
+}
+
+.my-skills {
+    padding-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+

@@ -1,0 +1,79 @@
+.fourth-container {
+    padding-top: 10px;
+
+    background-color: #1a1a1a;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.pic-about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 40px;
+}
+
+.about-me {
+    text-align: center;
+    margin-left: 40px;
+
+    color: white;
+}
+
+.line {
+    background-color: #2dfcd8;
+    width: 70%;
+    margin-top: 80px;
+    height: 1px;
+}
+
+.trip {
+    display: flex;
+    justify-content: center;
+
+    height: 300px;
+}
+
+.trip-1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    width: 200px;
+    height: 400px;
+}
+
+.trip-pic {
+    height: 25px;
+    display: flex;
+}
+
+.pic-around {
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    object-fit: cover;
+    background-color: #2dfcd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-journey {
+    text-align: center;
+    height: 200px;
+    display: flex;
+}

@@ -3,10 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MenuComponent } from './menu/menu.component';
+import { FirstContainerComponent } from './first-container/first-container.component';
+import { SecondContainerComponent } from './second-container/second-container.component';
+import { ThirdContainerComponent } from './third-container/third-container.component';
+import { FourthContainerComponent } from './fourth-container/fourth-container.component';
+import { FifthContainerComponent } from './fifth-container/fifth-container.component';
+import { ImprintComponent } from './imprint/imprint.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    FirstContainerComponent,
+    SecondContainerComponent,
+    ThirdContainerComponent,
+    FourthContainerComponent,
+    FifthContainerComponent,
+    ImprintComponent,
+    
   ],
   imports: [
     BrowserModule,
